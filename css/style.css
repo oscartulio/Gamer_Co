@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.barra{
+    background-color: #ff0000;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 70em;
+    margin: auto;
+}
+
+.navegador{
+    padding: 1.25em 0;
+}
+
+.navegador a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1.25em;
+    display: block;
+}
+
+@media (min-width: 760px){
+    .navegador a{
+        display: inline;
+    }
+}
+
+.navegador a:hover{
+    background-color: rgb(55, 145, 19);
+}
+
+
+
+
